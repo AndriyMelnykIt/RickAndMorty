@@ -1,0 +1,45 @@
+nav > ul > li > a{
+    background-color: black;
+    color: white;
+    width: 200px;
+    text-align: center;
+}
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+header {
+    margin: 10px;
+}
+h2 {
+    text-align: center;
+}
+header > button {
+    background-color: #bd6e3b;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+input {
+    width: 250px;
+}
+
+.active{
+    background-color: yellow;
+    color: black;
+}
+
+.card-content > h4{
+    height: 50px;
+}
+
